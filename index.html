@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>👸</title>
+    <meta charset="UTF-8" />
+    <title>👑 Queen Julie</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Lobster|Roboto:300&display=swap');
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .app {
+        align-items: center;
+        display: grid;
+        font-family: 'Roboto', sans-serif;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100vh;
+        justify-items: center;
+        padding: 0 1rem;
+        text-align: center;
+      }
+
+      .text {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.7;
+        text-transform: uppercase;
+      }
+
+      .logo {
+        color: #f70000;
+        line-height: 1.1;
+        font-family: 'Lobster', cursive;
+        font-size: 10rem;
+        position: relative;
+      }
+
+      .logo span:nth-child(1) {
+        color: #333;
+        font-size: 4rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .info {
+        bottom: 0;
+        font-size: 0.825rem;
+        left: 0;
+        position: absolute;
+        padding: 1rem 0;
+        right: 0;
+      }
+
+      .info a {
+        color: #333;
+      }
+    </style>
   </head>
   <body>
-    Hello, world.
+    <div class="app">
+      <div>
+        <div class="text">Julie,</div>
+        <div class="logo"><span>Diet</span><span>Coke</span></div>
+        <div class="text">Queen</div>
+      </div>
+      <div class="info">
+        Made with ♥ for
+        <a
+          href="https://www.redditgifts.com/exchanges/manage/#/exchange/arbitrary-day-2019/"
+          >Arbitrary Day 2019</a
+        >
+      </div>
+    </div>
   </body>
 </html>
